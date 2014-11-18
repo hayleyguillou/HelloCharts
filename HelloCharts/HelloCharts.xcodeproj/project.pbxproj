@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B05A4BC21A1A595100CDA30D /* NSMutableArray+pieEx.m in Sources */ = {isa = PBXBuildFile; fileRef = B05A4BBD1A1A595100CDA30D /* NSMutableArray+pieEx.m */; };
+		B05A4BC31A1A595100CDA30D /* PieElement.m in Sources */ = {isa = PBXBuildFile; fileRef = B05A4BBF1A1A595100CDA30D /* PieElement.m */; };
+		B05A4BC41A1A595100CDA30D /* PieLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B05A4BC11A1A595100CDA30D /* PieLayer.m */; };
+		B05A4BCB1A1A619A00CDA30D /* PieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05A4BCA1A1A619A00CDA30D /* PieView.swift */; };
+		B05A4BCF1A1A783B00CDA30D /* PieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05A4BCE1A1A783B00CDA30D /* PieViewController.swift */; };
+		B07D47471A1BAFE600455542 /* MyPieElement.m in Sources */ = {isa = PBXBuildFile; fileRef = B07D47461A1BAFE600455542 /* MyPieElement.m */; };
+		B0D7DE841A16B124008AA639 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D7DE831A16B124008AA639 /* AppDelegate.swift */; };
+		B0D7DE871A16B124008AA639 /* HelloCharts.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B0D7DE851A16B124008AA639 /* HelloCharts.xcdatamodeld */; };
+		B0D7DE8C1A16B124008AA639 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0D7DE8A1A16B124008AA639 /* Main.storyboard */; };
+		B0D7DE8E1A16B124008AA639 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0D7DE8D1A16B124008AA639 /* Images.xcassets */; };
+		B0D7DE911A16B124008AA639 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0D7DE8F1A16B124008AA639 /* LaunchScreen.xib */; };
+		B0D7DE9D1A16B124008AA639 /* HelloChartsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D7DE9C1A16B124008AA639 /* HelloChartsTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B0D7DE971A16B124008AA639 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0D7DE761A16B123008AA639 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0D7DE7D1A16B123008AA639;
+			remoteInfo = HelloCharts;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B05A4BBB1A1A595100CDA30D /* MagicPieLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagicPieLayer.h; sourceTree = "<group>"; };
+		B05A4BBC1A1A595100CDA30D /* NSMutableArray+pieEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+pieEx.h"; sourceTree = "<group>"; };
+		B05A4BBD1A1A595100CDA30D /* NSMutableArray+pieEx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+pieEx.m"; sourceTree = "<group>"; };
+		B05A4BBE1A1A595100CDA30D /* PieElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PieElement.h; sourceTree = "<group>"; };
+		B05A4BBF1A1A595100CDA30D /* PieElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PieElement.m; sourceTree = "<group>"; };
+		B05A4BC01A1A595100CDA30D /* PieLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PieLayer.h; sourceTree = "<group>"; };
+		B05A4BC11A1A595100CDA30D /* PieLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PieLayer.m; sourceTree = "<group>"; };
+		B05A4BCA1A1A619A00CDA30D /* PieView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PieView.swift; sourceTree = "<group>"; };
+		B05A4BCE1A1A783B00CDA30D /* PieViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PieViewController.swift; sourceTree = "<group>"; };
+		B06CA7C51A16B22000A244AE /* HelloCharts-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloCharts-Bridging-Header.h"; sourceTree = "<group>"; };
+		B07D47451A1BAFE600455542 /* MyPieElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPieElement.h; sourceTree = "<group>"; };
+		B07D47461A1BAFE600455542 /* MyPieElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyPieElement.m; sourceTree = "<group>"; };
+		B0D7DE7E1A16B123008AA639 /* HelloCharts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloCharts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0D7DE821A16B124008AA639 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0D7DE831A16B124008AA639 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B0D7DE861A16B124008AA639 /* HelloCharts.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HelloCharts.xcdatamodel; sourceTree = "<group>"; };
+		B0D7DE8B1A16B124008AA639 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B0D7DE8D1A16B124008AA639 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B0D7DE901A16B124008AA639 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B0D7DE961A16B124008AA639 /* HelloChartsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloChartsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0D7DE9B1A16B124008AA639 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0D7DE9C1A16B124008AA639 /* HelloChartsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloChartsTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0D7DE7B1A16B123008AA639 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0D7DE931A16B124008AA639 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B05A4BBA1A1A595100CDA30D /* MagicPieLayer */ = {
+			isa = PBXGroup;
+			children = (
+				B05A4BBB1A1A595100CDA30D /* MagicPieLayer.h */,
+				B05A4BBC1A1A595100CDA30D /* NSMutableArray+pieEx.h */,
+				B05A4BBD1A1A595100CDA30D /* NSMutableArray+pieEx.m */,
+				B05A4BBE1A1A595100CDA30D /* PieElement.h */,
+				B05A4BBF1A1A595100CDA30D /* PieElement.m */,
+				B05A4BC01A1A595100CDA30D /* PieLayer.h */,
+				B05A4BC11A1A595100CDA30D /* PieLayer.m */,
+			);
+			path = MagicPieLayer;
+			sourceTree = "<group>";
+		};
+		B05A4BC51A1A610A00CDA30D /* PieModel */ = {
+			isa = PBXGroup;
+			children = (
+				B05A4BCA1A1A619A00CDA30D /* PieView.swift */,
+				B07D47451A1BAFE600455542 /* MyPieElement.h */,
+				B07D47461A1BAFE600455542 /* MyPieElement.m */,
+			);
+			name = PieModel;
+			sourceTree = "<group>";
+		};
+		B0D7DE751A16B123008AA639 = {
+			isa = PBXGroup;
+			children = (
+				B06CA7C51A16B22000A244AE /* HelloCharts-Bridging-Header.h */,
+				B0D7DE801A16B123008AA639 /* HelloCharts */,
+				B0D7DE991A16B124008AA639 /* HelloChartsTests */,
+				B0D7DE7F1A16B123008AA639 /* Products */,
+				B05A4BBA1A1A595100CDA30D /* MagicPieLayer */,
+			);
+			sourceTree = "<group>";
+		};
+		B0D7DE7F1A16B123008AA639 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0D7DE7E1A16B123008AA639 /* HelloCharts.app */,
+				B0D7DE961A16B124008AA639 /* HelloChartsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0D7DE801A16B123008AA639 /* HelloCharts */ = {
+			isa = PBXGroup;
+			children = (
+				B05A4BC51A1A610A00CDA30D /* PieModel */,
+				B0D7DE831A16B124008AA639 /* AppDelegate.swift */,
+				B0D7DE8A1A16B124008AA639 /* Main.storyboard */,
+				B05A4BCE1A1A783B00CDA30D /* PieViewController.swift */,
+				B0D7DE8D1A16B124008AA639 /* Images.xcassets */,
+				B0D7DE8F1A16B124008AA639 /* LaunchScreen.xib */,
+				B0D7DE851A16B124008AA639 /* HelloCharts.xcdatamodeld */,
+				B0D7DE811A16B123008AA639 /* Supporting Files */,
+			);
+			path = HelloCharts;
+			sourceTree = "<group>";
+		};
+		B0D7DE811A16B123008AA639 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B0D7DE821A16B124008AA639 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B0D7DE991A16B124008AA639 /* HelloChartsTests */ = {
+			isa = PBXGroup;
+			children = (
+				B0D7DE9C1A16B124008AA639 /* HelloChartsTests.swift */,
+				B0D7DE9A1A16B124008AA639 /* Supporting Files */,
+			);
+			path = HelloChartsTests;
+			sourceTree = "<group>";
+		};
+		B0D7DE9A1A16B124008AA639 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B0D7DE9B1A16B124008AA639 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B0D7DE7D1A16B123008AA639 /* HelloCharts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0D7DEA01A16B124008AA639 /* Build configuration list for PBXNativeTarget "HelloCharts" */;
+			buildPhases = (
+				B0D7DE7A1A16B123008AA639 /* Sources */,
+				B0D7DE7B1A16B123008AA639 /* Frameworks */,
+				B0D7DE7C1A16B123008AA639 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloCharts;
+			productName = HelloCharts;
+			productReference = B0D7DE7E1A16B123008AA639 /* HelloCharts.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B0D7DE951A16B124008AA639 /* HelloChartsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0D7DEA31A16B124008AA639 /* Build configuration list for PBXNativeTarget "HelloChartsTests" */;
+			buildPhases = (
+				B0D7DE921A16B124008AA639 /* Sources */,
+				B0D7DE931A16B124008AA639 /* Frameworks */,
+				B0D7DE941A16B124008AA639 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0D7DE981A16B124008AA639 /* PBXTargetDependency */,
+			);
+			name = HelloChartsTests;
+			productName = HelloChartsTests;
+			productReference = B0D7DE961A16B124008AA639 /* HelloChartsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0D7DE761A16B123008AA639 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = hayleyguillou;
+				TargetAttributes = {
+					B0D7DE7D1A16B123008AA639 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					B0D7DE951A16B124008AA639 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = B0D7DE7D1A16B123008AA639;
+					};
+				};
+			};
+			buildConfigurationList = B0D7DE791A16B123008AA639 /* Build configuration list for PBXProject "HelloCharts" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B0D7DE751A16B123008AA639;
+			productRefGroup = B0D7DE7F1A16B123008AA639 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0D7DE7D1A16B123008AA639 /* HelloCharts */,
+				B0D7DE951A16B124008AA639 /* HelloChartsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B0D7DE7C1A16B123008AA639 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0D7DE8C1A16B124008AA639 /* Main.storyboard in Resources */,
+				B0D7DE911A16B124008AA639 /* LaunchScreen.xib in Resources */,
+				B0D7DE8E1A16B124008AA639 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0D7DE941A16B124008AA639 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0D7DE7A1A16B123008AA639 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B05A4BCF1A1A783B00CDA30D /* PieViewController.swift in Sources */,
+				B05A4BCB1A1A619A00CDA30D /* PieView.swift in Sources */,
+				B05A4BC31A1A595100CDA30D /* PieElement.m in Sources */,
+				B05A4BC41A1A595100CDA30D /* PieLayer.m in Sources */,
+				B05A4BC21A1A595100CDA30D /* NSMutableArray+pieEx.m in Sources */,
+				B0D7DE841A16B124008AA639 /* AppDelegate.swift in Sources */,
+				B0D7DE871A16B124008AA639 /* HelloCharts.xcdatamodeld in Sources */,
+				B07D47471A1BAFE600455542 /* MyPieElement.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0D7DE921A16B124008AA639 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0D7DE9D1A16B124008AA639 /* HelloChartsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B0D7DE981A16B124008AA639 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0D7DE7D1A16B123008AA639 /* HelloCharts */;
+			targetProxy = B0D7DE971A16B124008AA639 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B0D7DE8A1A16B124008AA639 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0D7DE8B1A16B124008AA639 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B0D7DE8F1A16B124008AA639 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0D7DE901A16B124008AA639 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B0D7DE9E1A16B124008AA639 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B0D7DE9F1A16B124008AA639 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0D7DEA11A16B124008AA639 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEFINES_MODULE = NO;
+				INFOPLIST_FILE = HelloCharts/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HelloCharts-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		B0D7DEA21A16B124008AA639 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEFINES_MODULE = NO;
+				INFOPLIST_FILE = HelloCharts/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HelloCharts-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		B0D7DEA41A16B124008AA639 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HelloChartsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloCharts.app/HelloCharts";
+			};
+			name = Debug;
+		};
+		B0D7DEA51A16B124008AA639 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HelloChartsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloCharts.app/HelloCharts";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0D7DE791A16B123008AA639 /* Build configuration list for PBXProject "HelloCharts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0D7DE9E1A16B124008AA639 /* Debug */,
+				B0D7DE9F1A16B124008AA639 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0D7DEA01A16B124008AA639 /* Build configuration list for PBXNativeTarget "HelloCharts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0D7DEA11A16B124008AA639 /* Debug */,
+				B0D7DEA21A16B124008AA639 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0D7DEA31A16B124008AA639 /* Build configuration list for PBXNativeTarget "HelloChartsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0D7DEA41A16B124008AA639 /* Debug */,
+				B0D7DEA51A16B124008AA639 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B0D7DE851A16B124008AA639 /* HelloCharts.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B0D7DE861A16B124008AA639 /* HelloCharts.xcdatamodel */,
+			);
+			currentVersion = B0D7DE861A16B124008AA639 /* HelloCharts.xcdatamodel */;
+			path = HelloCharts.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B0D7DE761A16B123008AA639 /* Project object */;
+}
