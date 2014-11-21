@@ -25,9 +25,12 @@ class PieViewController: UIViewController {
     override func viewDidLoad() {
         todayLabel.text = "\(stepsToday)"
         pieView.loadInitialData(stepsToday, completed: stepsPast, required: max(0, goalSteps - stepsPast - stepsToday))
+        var percentage: Double = Double(stepsToday + stepsPast) / Double(goalSteps) * 100.0
+        percentLabel.text = "\(Int(percentage))%"
+        todayLabel.text = "\(stepsToday)"
         
         // Timer to autoincrement steps
-        //var timer = NSTimer.scheduledTimerWithTimeInterval(0.4, target: self, selector: Selector("update"), userInfo: nil, repeats: true)
+        var timer = NSTimer.scheduledTimerWithTimeInterval(0.4, target: self, selector: Selector("update"), userInfo: nil, repeats: true)
     }
     
     @IBAction func pedometerStart(sender: AnyObject) {
@@ -46,7 +49,7 @@ class PieViewController: UIViewController {
     
     @IBAction func submitValues(sender: AnyObject) {
         
-        if (goalTextField.text == nil || historyTextField.text == nil || todayTextField.text == nil) {
+        if (goalTextField.text.isEmpty || historyTextField.text.isEmpty || todayTextField.text.isEmpty) {
             //Error: break
             return
         }
